@@ -1,0 +1,8 @@
+int loo 0
+ip add 20.20.20.20 255.255.255.255
+desc router_2_loopback_20
+exit
+router ospf 1
+net 10.10.10.0 0.0.0.0 area 0
+distan 50
+default-infor orig
